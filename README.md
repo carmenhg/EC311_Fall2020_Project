@@ -10,3 +10,20 @@ Carmen Hurtado:
 Michelle Imogu:
 
 Aymane El Jerari: 
+
+
+Names and Date of Signature: Carmen Hurtado; Michelle Imogu; Aymane El Jerari; 12/09/2020
+
+
+Submission details: -
+
+Carmen Hurtado:
+
+Michelle Imogu:
+
+Aymane El Jerari: 
+
+
+Our difficulties with this Lab include:- 
+
+
