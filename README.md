@@ -5,13 +5,18 @@ Project Name: "Morse Code Interfacing"
 Team Members: MICHELLE IMOGU [U05573884] | CARMEN HURTADO [U73061355] |  AYMANE EL JERARI [U28480792]
 
 
-Link to Demo: https://drive.google.com/drive/folders/12sPZTiMh9XQjJyl5y35VtS1Z_eHFDF6O (Class drive, look for Team 18's video)
+Link to Demo: https://drive.google.com/drive/folders/12sPZTiMh9XQjJyl5y35VtS1Z_eHFDF6O (Class Google Drive, look for Team 18's video)
 
 
 PROJECT OVERVIEW:- This project constitutes a morse code interfacing functionality for the Nexys-A7 FPGA Board. It encompasses the use of a VGA, an external Keyboard, and the board's Seven Segment Display. With the help of the VGA, shapes corresponding to the "dot" and "dash" of Morse Code are visible to the user. The Keyboard is used for user input as a "Guess" for the corresponding morse code on the screen. Finally a Seven Segment Display is used as a visual aid for the user to see the word shown in morse in the screen. 
 
 
 How to Run the Project: 
+
+There are 2 top modules:
+
+- top2.v implements the code from the clock_divider, h_counter, v_counter and keyboard_input modules
+- text_test.v implements the code from the A_enable_digit, A_seven_seg, clock_divider, refresh_clock and text_logic modules
 
 
 Overview of the Code Structure:-
