@@ -8,7 +8,7 @@ Team Members: MICHELLE IMOGU [U05573884] | CARMEN HURTADO [U73061355] |  AYMANE 
 Link to Demo: 
 
 
-PROJECT OVERVIEW:- This project constitutes a morse code interfacing functionality for the Nexys A7 FPGA Board. It encompasses the use of a VGA, an external Keyboard, and the board's Seven Segment Display. With the help of the VGA, shapes corresponding to the "dot" and "dash" of Morse Code are visible to the user. The Keyboard is used for user input as a "Guess" for the corresponding morse code on the screen. Finally a Seven Segment Display is used as a visual aid for the user to see the word shown in morse in the screen. 
+PROJECT OVERVIEW:- This project constitutes a morse code interfacing functionality for the Nexys-A7 FPGA Board. It encompasses the use of a VGA, an external Keyboard, and the board's Seven Segment Display. With the help of the VGA, shapes corresponding to the "dot" and "dash" of Morse Code are visible to the user. The Keyboard is used for user input as a "Guess" for the corresponding morse code on the screen. Finally a Seven Segment Display is used as a visual aid for the user to see the word shown in morse in the screen. 
 
 
 How to Run the Project: 
@@ -18,17 +18,19 @@ Overview of the Code Structure:-
 
 Carmen Hurtado:  
 
-Michelle Imogu: 
+Michelle Imogu: The FPGA's 7-segment display Verilog code was made up of a one-hot encoding, which conatained an 18-bit combination of 0's and 1's. These combinations were used to create the letters from A to Z, and were also used to coin the preset words. These words are displayed with the push of a switch, with different switches displaying different words.
 
-Aymane El Jerari: This Project was a good learning experience. Despite not being able to achieve what we intended to at the beginning, this project taught me one major skill. The skill of using the internet to find good resources. Finally, the major issue we had with the keyboard module was the inability to compare it to the morse code in order to display colors on the vga display.
+Aymane El Jerari: 
 
 
 
 Relevant Information:
 
-*Successes and Failures
-- Inability to display text dynamically
+-
 
+- We were able to have the FPGA display letters on the 7-segment to form (short) words successfully, but we were unable to have the text display alongside the VGA dynamically.
+
+-
 
 
 Names and Date of Signature: Carmen Hurtado; Michelle Imogu; Aymane El Jerari; 12/09/2020
