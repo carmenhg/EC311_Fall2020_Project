@@ -20,13 +20,14 @@ Carmen Hurtado:
 
 Michelle Imogu: 
 
-Aymane El Jerari: 
+Aymane El Jerari: This Project was a good learning experience. Despite not being able to achieve what we intended to at the beginning, this project taught me one major skill. The skill of using the internet to find good resources. Finally, the major issue we had with the keyboard module was the inability to compare it to the morse code in order to display colors on the vga display.
 
 
 
 Relevant Information:
 
 *Successes and Failures
+- Inability to display text dynamically
 
 
 
