@@ -16,7 +16,7 @@ How to Run the Project:
 
 Overview of the Code Structure:-
 
-Carmen Hurtado:  
+Carmen Hurtado:  VGA Controlletr top module runs the VGA signals to diplay shapes using the pixels in the screen. It call a clock divider module to create the needed 25 Mhz clock frequncy for this VGA Controller. Includes a case statement to drive the output colors of the VGA depending on values of input switches on the FPGA board. Lastly it calls the Keyboard/Morse Decoder module to compare and translate the shown morse code on the screen.
 
 Michelle Imogu: The FPGA's 7-segment display Verilog code was made up of a one-hot encoding, which conatained an 18-bit combination of 0's and 1's. These combinations were used to create the letters from A to Z, and were also used to coin the preset words. These words are displayed with the push of a switch, with different switches displaying different words.
 
@@ -26,7 +26,7 @@ Aymane El Jerari:
 
 Relevant Information:
 
--
+- VGA failed to display text and to automatically display morse code. 
 
 - We were able to have the FPGA display letters on the 7-segment to form (short) words successfully, but we were unable to have the text display alongside the VGA dynamically.
 
